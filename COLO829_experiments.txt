@@ -1,0 +1,6 @@
+1. sv+seg => lh: python ../../../SVAS/scripts/csv_sv.py call --sv_fn=../COLO829_1_sv.txt  --seg_fn=../COLO829_1_seg.txt --sample=COLO829_1
+2. check reachability: ~/localhap/localHap --op check --juncdb ./COLO829_1.1.junc.db --in_lh ./COLO829_1.1.lh  --out_lh COLO829_1.1.checked.lh --lp_prefix COLO829_1.1 --verbose
+3. solve SV copy numbers: cbc COLO829_1.1.lp solve solu COLO829_1.1.sol
+4. generate balanced lh: python ../../localhaptgs/script/main.py parseILP -i COLO829_1.1.checked.lh -s COLO829_1.1.sol -o COLO829_1.1.balance.lh
+5. (optional) add PROP into balance.lh: e.g. PROP    M:chr3  I:chr3:chr10:chr12  C:chr3:chr6 S:3:4
+6. run bfb: ~/localhap/localHap --op bfb --in_lh ./COLO829_1.1.balance.lh --lp_prefix COLO829_1 --verbose

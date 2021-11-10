@@ -1,0 +1,51 @@
+模拟fastq，生成BAM文件
+1. sv & seg -> lh: python ../../../SVAS/scripts/csv_sv.py call --sv_fn=../test_sv.txt --seg_fn=../test_seg.txt --sample=test --seg_only=1
+2. lh -> bfbpath & bed.txt: ~/localhap/localHap --op bfb --in_lh ./test.1.lh --lp_prefix test --verbose
+     update bed.txt based on sv file: python ../../localhaptgs/script/main.py updateBed -i=../test_sv.txt -b=./bed.txt
+3. bfb path (bed.txt) -> bfb.fasta: 
+python ../../localhaptgs/script/main.py bfb2fasta -i=/home/eric/localhap/BFB_data/experiment/hg38.fa -b=bed.txt -t=bpseq.txt -o=bfb.fa
+4. bfb.fasta -> fastq files (reads info): bash ~/localhap/localhaptgs/script/simulation.sh
+5. fastq + ref fasta -> BAM: bash ~/localhap/localhaptgs/script/alignment.sh
+
+查看BAM文件是否包含sv
+1. BAM -> vcf (二代): ~/svaba/bin/svaba run -p 4 -t bfb.bam -a bfb_test -G ~/localhap/BFB_data/experiment/hg38.fa
+	delta2: /mnt/disk2_workspace/panguangze/reference/hg38.fa
+	        (三代): ~/Sniffles-master/bin/sniffles-core-1.0.12/sniffles
+2. vcf -> vcf.txt: python ../../../SVAS/scripts/parse_svaba.py call --sv_fn=./bfb_test.svaba.unfiltered.sv.vcf 
+
+获取拷贝数信息
+1. vcf -> sv copy number: python ../../localhaptgs/script/main.py vcf2sv -i ./bfb_test.svaba.unfiltered.sv.vcf.txt -o bfb_sv.txt
+2. sv -> lh: python ../../../SVAS/scripts/csv_sv.py call --sv_fn=./bfb_sv.txt --seg_fn=../test_seg.txt --sample=test --seg_only=1 --bfb_sv=1
+(optional) python ~/hpvpipe/main.py generate_lh --sv_file=./bfb_sv.txt --bam=bfb.bam --h_chrs=chr2,chr6 --sample=bfb1 --out_dir=./ --avg_whole_dp=30 
+
+再次验证
+1. 添加prop
+2. 跑localHap/BFB: ~/localhap/localHap --op bfb --in_lh ./test.1.lh --lp_prefix test --verbose
+
+排序输出：less bfb_r1.fq.gz | grep '@' | sort | less
+查看BAM：
+samtools sort -O BAM xx.sam -o xxx.bam --threads 8
+samtools index xx.bam
+samtools view xx.bam chr2 | zless
+samtools view xx.bam chr2:xxx-xxx | zless
+
+不同tumor purity：
+1. 正常fasta：python ../../localhaptgs/script/main.py seg2fasta -r=/home/eric/localhap/BFB_data/experiment/hg38.fa -i=../test_seg.txt  -o=normal.fa
+
+Call sv for PB and ONT:
+1. PB call sv: 
+  a. bfb1: sniffles -m bfb1_pb.bam -v bfb1_pb.vcf -l 0 -s 2 -d 4
+  b. bfb2: sniffles -m bfb2_pb.bam -v bfb2_pb.vcf -l 0 -s 5
+  c. bfb3: sniffles -m bfb3_pb.bam -v bfb3_pb.vcf -l 0
+  d. bfb4: sniffles -m bfb4_pb.bam -v bfb4_pb.vcf -l 0
+2. ONT call sv：for inversion - d should be very small
+  a. bfb1: sniffles -m bfb1_ont.bam -v bfb1_ont.vcf -l 0 -s 5 -d 3
+  b. bfb2: sniffles -m bfb2_ont.bam -v bfb2_ont.vcf -l 4 -s 2 -d 100
+  c. bfb3：sniffles -m bfb3_ont.bam -v bfb3_ont.vcf -l 0
+  d. bfb4：sniffles -m bfb4_ont.bam -v bfb4_ont.vcf -l 0 -s 5
+
+10x simulation:
+1. fasta -> fastq (sequencing reads): 
+	cd ./10x
+	tenx_simulation 30 150 350 0 bfb1 ../bfb1.fa ../bfb1.fa 50
+2. fastq -> BAM: 

@@ -1,0 +1,5 @@
+http://ftp.sra.ebi.ac.uk/vol1/run/ERR275/ERR2752450/COLO829T_dedup.realigned.bam
+http://ftp.sra.ebi.ac.uk/vol1/run/ERR275/ERR2752452/colo829.tumor.ngmlr.sorted.merged.bam
+http://ftp.sra.ebi.ac.uk/vol1/run/ERR282/ERR2820167/phased_possorted_bamCOLO829T.bam
+http://ftp.sra.ebi.ac.uk/vol1/run/ERR280/ERR2808248/hg19.COLO_829T.bam
+http://ftp.sra.ebi.ac.uk/vol1/run/ERR275/ERR2752451/colo829.normal.ngmlr.sorted.bam
