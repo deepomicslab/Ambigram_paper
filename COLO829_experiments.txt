@@ -4,3 +4,11 @@
 4. generate balanced lh: python ../../localhaptgs/script/main.py parseILP -i COLO829_1.1.checked.lh -s COLO829_1.1.sol -o COLO829_1.1.balance.lh
 5. (optional) add PROP into balance.lh: e.g. PROP    M:chr3  I:chr3:chr10:chr12  C:chr3:chr6 S:3:4
 6. run bfb: ~/localhap/localHap --op bfb --in_lh ./COLO829_1.1.balance.lh --lp_prefix COLO829_1 --verbose
+
+call sv:
+~/svaba/bin/svaba run -p 8 -t PE_30x.bam -a PE_30x -G ~/bfb_expr/hg19.fa --override-reference-check
+python ~/SVAS/scripts/parse_svaba.py call --sv_fn=./PE_30x.svaba.unfiltered.sv.vcf
+python ~/localhap/localhaptgs/script/main.py vcf2sv -i ./PE_30x.svaba.unfiltered.sv.vcf.txt -o PE_30x_sv.txt
+
+sniffles -m ONT.bam -v ONT.vcf --report_BND -s 5 -d 200
+python ~/localhap/localhaptgs/script/main.py parse_snif_vcf -i ONT.vcf -o ONT_sv.txt

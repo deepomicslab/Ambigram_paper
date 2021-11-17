@@ -15,6 +15,7 @@ python ../../localhaptgs/script/main.py bfb2fasta -i=/home/eric/localhap/BFB_dat
 
 获取拷贝数信息
 1. vcf -> sv copy number: python ../../localhaptgs/script/main.py vcf2sv -i ./bfb_test.svaba.unfiltered.sv.vcf.txt -o bfb_sv.txt
+	(sniffles) python ~/localhap/localhaptgs/script/main.py parse_snif_vcf -i ONT.vcf -o ONT_sv.txt
 2. sv -> lh: python ../../../SVAS/scripts/csv_sv.py call --sv_fn=./bfb_sv.txt --seg_fn=../test_seg.txt --sample=test --seg_only=1 --bfb_sv=1
 (optional) python ~/hpvpipe/main.py generate_lh --sv_file=./bfb_sv.txt --bam=bfb.bam --h_chrs=chr2,chr6 --sample=bfb1 --out_dir=./ --avg_whole_dp=30 
 
@@ -31,6 +32,11 @@ samtools view xx.bam chr2:xxx-xxx | zless
 
 不同tumor purity：
 1. 正常fasta：python ../../localhaptgs/script/main.py seg2fasta -r=/home/eric/localhap/BFB_data/experiment/hg38.fa -i=../test_seg.txt  -o=normal.fa
+	or
+	python ~/localhaptgs/script/main.py seg2bed -i=./test1_seg.txt  -o=test1.bed
+	 ~/bedtools2/bin/fastaFromBed -fi ../hg38.fa -bed ./test1.bed -fo test1.fa
+2. 模拟生成bam
+3. merge：
 
 Call sv for PB and ONT:
 1. PB call sv: 
@@ -48,4 +54,5 @@ Call sv for PB and ONT:
 1. fasta -> fastq (sequencing reads): 
 	cd ./10x
 	tenx_simulation 30 150 350 0 bfb1 ../bfb1.fa ../bfb1.fa 50
-2. fastq -> BAM: 
+2. fastq -> BAM: longranger align
+3. call sv: ~/svaba/bin/svaba run -p 8 -t possorted_bam.bam -a bfb1_lr_20x -G ../../refdata-GRCh38-2.1.0/fasta/genome.fa
