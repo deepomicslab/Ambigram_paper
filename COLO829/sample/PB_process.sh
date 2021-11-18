@@ -73,7 +73,7 @@ function get_sv()
 }
 
 # example
-call_sv PB.bam PB 30 5 200
+call_sv PB.bam PB 30 3 100
 get_sv PB.vcf PB
 generate_lh PB_sv.txt ../COLO829_1_seg.txt sample1_PB 1
 find_BFB sample1_PB.1.lh sample1
