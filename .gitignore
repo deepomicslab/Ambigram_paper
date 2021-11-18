@@ -1,5 +1,6 @@
 /*
 !.gitignore
 !/benchmark/
+!/simulation/
 !/COLO829/
 !README.md

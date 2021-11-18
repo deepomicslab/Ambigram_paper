@@ -25,6 +25,22 @@ This is a repository for experiments on Onion-BFB. Here, we aim to benchmark the
 5. Generate a lh file with the sv file and seg file.
 6. Reconstruct the BFB path with Onion-BFB and new SV information. 
 
+## Results of the experiment on curated SV
+
+- **Least Coverage**
+
+|         | PE   | PB   | ONT  | 10x  |
+| ------- | ---- | ---- | ---- | ---- |
+| sample1 | 10x  | 10x  | 20x  | 5x   |
+| sample2 | 20x  | 10x  | 30x  | 10x  |
+
+* **Least Purity**
+
+|         | PE   | PB   | ONT  | 10x  |
+| ------- | ---- | ---- | ---- | ---- |
+| sample1 | 50x  | 75x  | 50x  | 75x  |
+| sample2 | 50x  | N/A  | 75x  | N/A  |
+
 ## Prerequisites
 
 - SVAS ([https://github.com/paprikachan/SVAS](https://github.com/paprikachan/SVAS))
