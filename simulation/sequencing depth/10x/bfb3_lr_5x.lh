@@ -27,3 +27,4 @@ JUNC H:3:+ H:4:+ 60.0 4.0 U B
 JUNC H:5:+ H:6:+ 45.0 3.0 U B
 JUNC H:6:+ H:7:+ 60.0 4.0 U B
 JUNC H:8:+ H:9:+ 15.0 1.0 U B
+PROP	M:chr2	I:chr2:chr6:chr13	S:3
