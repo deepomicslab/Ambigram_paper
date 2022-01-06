@@ -12,3 +12,12 @@ python ~/localhap/localhaptgs/script/main.py vcf2sv -i ./PE_30x.svaba.unfiltered
 
 sniffles -m ONT.bam -v ONT.vcf --report_BND -s 5 -d 200
 python ~/localhap/localhaptgs/script/main.py parse_snif_vcf -i ONT.vcf -o ONT_sv.txt
+
+
+Extract third-generation information:
+1. pbindex PB_5x.bam
+2. bam2fasta -o PB_5x PB_5x.bam
+3. gunzip PB_5x.fasta.gz
+4. python ~/hpvpipe/main.py process_tgs -r ~/bfb_expr/hg19.fa -l sample1_PB_5x.1.lh -t PB_5x.fasta -o ./
+or
+samtools bam2fq ONT_5x.bam | seqtk seq -A > ONT_5x.fasta
