@@ -1,0 +1,5 @@
+Group index for BFB SVs:
+S007T1_somatic_sv: 9, 23, 25, 34
+S007T2_somatic_sv: 21
+S007T1_pacbio_sv: 384, 1074, 8243
+S007T2_pacbio_sv: 194, 3388, 5489
