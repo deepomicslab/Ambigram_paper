@@ -44,3 +44,4 @@ JUNC H:10:+ H:4:+ 0 0 I U
 JUNC H:11:+ H:12:+ 67.5 4.5 U B
 JUNC H:12:+ H:13:+ 67.5 4.5 U B
 JUNC H:13:+ H:11:+ 0 0 I U
+PROP    M:chr15  I:chr15:chr6:chr20 S:5:6
