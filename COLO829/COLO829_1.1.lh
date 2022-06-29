@@ -56,4 +56,4 @@ JUNC H:15:+ H:13:+ 0 0 I U
 JUNC H:16:+ H:17:+ 52.5 3.5 U B
 JUNC H:17:+ H:18:+ 52.5 3.5 U B
 JUNC H:18:+ H:16:+ 0 0 I U
-PROP    M:chr3  I:chr3:chr10:chr12  C:chr3:chr6 S:3:4
+PROP    M:chr3  I:chr3:chr10:chr12  C:chr3:chr6 S:3

@@ -1,0 +1,6 @@
+chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	avg_cn
+chr15	90318028	-	chr15	90318491	+	71.0
+chr15	90725871	-	chr15	90726375	+	83.0
+chr15	90821515	-	chr15	90821921	+	40.0
+chr15	90928127	+	chr15	90928659	-	42.0
+chr15	91011445	-	chr15	91011853	+	21.0
