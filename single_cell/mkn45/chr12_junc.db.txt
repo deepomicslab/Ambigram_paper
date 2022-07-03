@@ -1,0 +1,5 @@
+chrom_5p	pos_5p	strand_5p	chrom_3p	pos_3p	strand_3p	depth_avg	join_type	gene_5p	gene_3p	clone
+chr12	64980419	-	chr12	64980922	+	67.0	tt	None	None	M9=9,M7=4,M8=3,A=4,M4=3,M6=1
+chr12	65048069	-	chr12	65048423	+	62.0	tt	None	None	M9=9,M5=2,A=3,M7=1,M8=1,M4=1
+chr12	65134843	+	chr12	65135149	-	99.0	hh	None	None	M9=27,M4=4,A=7,M5=4,M8=2,M6=2,M7=1,M2=1,M1=1
+chr12	65588481	+	chr12	65588669	-	84.0	hh	None	None	M9=11,M8=5,M6=2,A=2,M1=1
