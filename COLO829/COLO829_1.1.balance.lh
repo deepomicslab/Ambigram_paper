@@ -33,22 +33,22 @@ JUNC H:10:+ H:11:- 15 1.0 U B 1
 JUNC H:3:+ H:14:+ 15 1.0 U B 1
 JUNC H:4:+ H:17:+ 15 1.0 U B 1
 JUNC H:17:+ H:14:- 15 1.0 U B 1
-JUNC H:1:+ H:2:+ 60 1.0 U B 4
-JUNC H:2:+ H:3:+ 127.5 6.0 U B 8.5
-JUNC H:3:+ H:4:+ 165 10.0 U B 11
-JUNC H:4:+ H:5:+ 150 9.0 U B 10
-JUNC H:5:+ H:6:+ 165 9.0 U B 11
-JUNC H:6:+ H:7:+ 142.5 8.0 U B 9.5
-JUNC H:7:+ H:8:+ 67.5 3.0 U B 4.5
-JUNC H:9:+ H:10:+ 75 3.0 U B 5
-JUNC H:10:+ H:11:+ 90 6.0 U B 6
-JUNC H:11:+ H:12:+ 75 5.0 U B 5
-JUNC H:13:+ H:14:+ 52.5 3.0 U B 3.5
-JUNC H:14:+ H:15:+ 52.5 3.0 U B 3.5
-JUNC H:16:+ H:17:+ 52.5 2.0 U B 3.5
-JUNC H:17:+ H:18:+ 52.5 2.0 U B 3.5
-JUNC H:8:+ H:1:+ 37.5 1.0 I U 2.5
-JUNC H:12:+ H:9:+ 60 3.0 I U 4
-JUNC H:15:+ H:13:+ 45 3.0 I U 3
-JUNC H:18:+ H:16:+ 30 2.0 I U 2
-PROP    M:chr3  I:chr3:chr10:chr12  C:chr3:chr6 S:3:4
+JUNC H:1:+ H:2:+ 60.0 2.0 U B
+JUNC H:2:+ H:3:+ 127.5 7.0 U B
+JUNC H:3:+ H:4:+ 165.0 10.0 U B
+JUNC H:4:+ H:5:+ 150.0 10.0 U B
+JUNC H:5:+ H:6:+ 165.0 10.0 U B
+JUNC H:6:+ H:7:+ 142.5 7.0 U B
+JUNC H:7:+ H:8:+ 67.5 4.0 U B
+JUNC H:8:+ H:1:+ 0 0 I U
+JUNC H:9:+ H:10:+ 75.0 5.0 U B
+JUNC H:10:+ H:11:+ 90.0 6.0 U B
+JUNC H:11:+ H:12:+ 75.0 5.0 U B
+JUNC H:12:+ H:9:+ 0 0 I U
+JUNC H:13:+ H:14:+ 52.5 3.5 U B
+JUNC H:14:+ H:15:+ 52.5 3.5 U B
+JUNC H:15:+ H:13:+ 0 0 I U
+JUNC H:16:+ H:17:+ 52.5 3.5 U B
+JUNC H:17:+ H:18:+ 52.5 3.5 U B
+JUNC H:18:+ H:16:+ 0 0 I U
+PROP    M:chr3  I:chr3:chr10:chr12  C:chr3:chr6 S:3

@@ -1,6 +1,5 @@
-chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	avg_cn
+chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	depth_avg
 chr6	138774059	-	chr15	23717166	+	68
 chr6	138774182	+	chr15	23712619	-	84
 chr15	23685607	-	chr20	37274467	+	56
-chr20	37274667	+	chr15	23706879	+	53
 chr15	23831701	+	chr15	23992755	-	24
