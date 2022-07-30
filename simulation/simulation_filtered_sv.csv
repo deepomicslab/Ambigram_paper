@@ -1,4 +1,4 @@
-case_id,sv,ground_truth_sv_id,ground_truth_sv,copy_number,depth,coverage,purity,simulator,isCorrect
+case_id,sv,ground_truth_sv_id,ground_truth_sv,copy_number,depth,coverage,purity,simulator,isUsed
 1,chr7:55282002(-)-chr7:55282002(+),2,chr7:55282001(-)-chr7:55282001(+),5.6,28,10,1,10x,1
 1,chr7:55283002(-)-chr7:55283002(+),3,chr7:55283001(-)-chr7:55283001(+),2.4,12,10,1,10x,1
 1,chr7:55285000(+)-chr7:55285000(-),4,chr7:55285000(+)-chr7:55285000(-),3.4,17,10,1,10x,1
