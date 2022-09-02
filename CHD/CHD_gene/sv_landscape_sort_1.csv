@@ -1,0 +1,331 @@
+SampleID,g_Chr5:46486069-46541284,g_Chr5:46541462-46496661,g_Chr6:51874769-51880809,g_Chr15:17394590-17093403,mtif_Gender,mtif_Phenotypes
+SRR3945470,DEL-ht,DUP-th,DEL-ht,DUP-th,male,Other
+SRR3949330,DEL-ht,DUP-th,DEL-ht,DUP-th,male,Septal Defects
+SRR3928849,DEL-ht,DUP-th,DEL-ht,-,male,Left-sided Obstructive Lesions
+SRR3931816,DEL-ht,DUP-th,DEL-ht,-,male,Septal Defects
+SRR3825050,DEL-ht,DUP-th,-,DUP-th,male,Conotruncal Defects
+SRR3825058,DEL-ht,DUP-th,-,DUP-th,female,Left-sided Obstructive Lesions
+SRR3825064,DEL-ht,DUP-th,-,DUP-th,male,Right-sided Obstructive Lesions
+SRR3825079,DEL-ht,DUP-th,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR3945299,DEL-ht,DUP-th,-,DUP-th,female,Conotruncal Defects
+SRR3945477,DEL-ht,DUP-th,-,DUP-th,male,Other
+SRR3761011,DEL-ht,DUP-th,-,-,male,Right-sided Obstructive Lesions
+SRR3761030,DEL-ht,DUP-th,-,-,male,Left-sided Obstructive Lesions
+SRR3761035,DEL-ht,DUP-th,-,-,male,Septal Defects
+SRR3825137,DEL-ht,DUP-th,-,-,male,Conotruncal Defects
+SRR3928850,DEL-ht,DUP-th,-,-,male,Conotruncal Defects
+SRR3931781,DEL-ht,DUP-th,-,-,female,Left-sided Obstructive Lesions
+SRR3953732,DEL-ht,DUP-th,-,-,male,Left-sided Obstructive Lesions
+SRR3987250,DEL-ht,DUP-th,-,-,female,Right-sided Obstructive Lesions
+SRR3989836,DEL-ht,DUP-th,-,-,male,Septal Defects
+SRR3989905,DEL-ht,DUP-th,-,-,male,Septal Defects
+SRR5115056,DEL-ht,DUP-th,-,-,male,Other
+SRR3825094,DEL-ht,-,DEL-ht,DUP-th,male,Conotruncal Defects
+SRR3989877,DEL-ht,-,DEL-ht,DUP-th,female,Conotruncal Defects
+SRR3760960,DEL-ht,-,DEL-ht,-,female,Left-sided Obstructive Lesions
+SRR3760997,DEL-ht,-,DEL-ht,-,female,Left-sided Obstructive Lesions
+SRR3761001,DEL-ht,-,DEL-ht,-,female,Septal Defects
+SRR3825121,DEL-ht,-,DEL-ht,-,female,Septal Defects
+SRR3928843,DEL-ht,-,DEL-ht,-,female,Left¨Cright Patterning Defects
+SRR3928890,DEL-ht,-,DEL-ht,-,male,Conotruncal Defects
+SRR3931763,DEL-ht,-,DEL-ht,-,female,Conotruncal Defects
+SRR3931817,DEL-ht,-,DEL-ht,-,female,Conotruncal Defects
+SRR3953774,DEL-ht,-,DEL-ht,-,female,Septal Defects
+SRR3953809,DEL-ht,-,DEL-ht,-,male,Left-sided Obstructive Lesions
+SRR3987258,DEL-ht,-,DEL-ht,-,male,Conotruncal Defects
+SRR3987280,DEL-ht,-,DEL-ht,-,male,Left¨Cright Patterning Defects
+SRR3989826,DEL-ht,-,DEL-ht,-,male,Other
+SRR3760936,DEL-ht,-,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR3825100,DEL-ht,-,-,DUP-th,female,Septal Defects
+SRR3928897,DEL-ht,-,-,DUP-th,female,Septal Defects
+SRR3945312,DEL-ht,-,-,DUP-th,female,Right-sided Obstructive Lesions
+SRR3945332,DEL-ht,-,-,DUP-th,female,Septal Defects
+SRR3945479,DEL-ht,-,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR3953841,DEL-ht,-,-,DUP-th,male,Conotruncal Defects
+SRR3987349,DEL-ht,-,-,DUP-th,male,Septal Defects
+SRR3987362,DEL-ht,-,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR3987367,DEL-ht,-,-,DUP-th,female,Right-sided Obstructive Lesions
+SRR5115044,DEL-ht,-,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR3760946,DEL-ht,-,-,-,male,Conotruncal Defects
+SRR3760954,DEL-ht,-,-,-,female,Conotruncal Defects
+SRR3760987,DEL-ht,-,-,-,male,Right-sided Obstructive Lesions
+SRR3761015,DEL-ht,-,-,-,male,Other
+SRR3761026,DEL-ht,-,-,-,male,Conotruncal Defects
+SRR3825060,DEL-ht,-,-,-,female,Right-sided Obstructive Lesions
+SRR3825071,DEL-ht,-,-,-,female,Conotruncal Defects
+SRR3825098,DEL-ht,-,-,-,male,Conotruncal Defects
+SRR3825132,DEL-ht,-,-,-,male,Conotruncal Defects
+SRR3928804,DEL-ht,-,-,-,male,Conotruncal Defects
+SRR3928879,DEL-ht,-,-,-,female,Right-sided Obstructive Lesions
+SRR3931747,DEL-ht,-,-,-,male,Left-sided Obstructive Lesions
+SRR3931787,DEL-ht,-,-,-,female,Left-sided Obstructive Lesions
+SRR3931791,DEL-ht,-,-,-,male,Left-sided Obstructive Lesions
+SRR3931830,DEL-ht,-,-,-,female,Right-sided Obstructive Lesions
+SRR3931857,DEL-ht,-,-,-,female,Conotruncal Defects
+SRR3945287,DEL-ht,-,-,-,female,Left-sided Obstructive Lesions
+SRR3945484,DEL-ht,-,-,-,female,Septal Defects
+SRR3953744,DEL-ht,-,-,-,female,Left-sided Obstructive Lesions
+SRR3953757,DEL-ht,-,-,-,female,Conotruncal Defects
+SRR3953768,DEL-ht,-,-,-,male,Conotruncal Defects
+SRR3953811,DEL-ht,-,-,-,male,Right-sided Obstructive Lesions
+SRR3953814,DEL-ht,-,-,-,female,Septal Defects
+SRR3953836,DEL-ht,-,-,-,female,Conotruncal Defects
+SRR3987322,DEL-ht,-,-,-,male,Conotruncal Defects
+SRR3989881,DEL-ht,-,-,-,male,Other
+SRR4017544,DEL-ht,-,-,-,female,Conotruncal Defects
+SRR5114957,DEL-ht,-,-,-,male,Conotruncal Defects
+SRR5114960,DEL-ht,-,-,-,female,Right-sided Obstructive Lesions
+SRR5114993,DEL-ht,-,-,-,male,Left-sided Obstructive Lesions
+SRR3928827,-,DUP-th,DEL-ht,DUP-th,male,Other
+SRR3931724,-,DUP-th,DEL-ht,DUP-th,male,Left-sided Obstructive Lesions
+SRR3987234,-,DUP-th,DEL-ht,DUP-th,male,Other
+SRR3945336,-,DUP-th,DEL-ht,-,male,Conotruncal Defects
+SRR3953820,-,DUP-th,DEL-ht,-,male,Left-sided Obstructive Lesions
+SRR3928878,-,DUP-th,-,DUP-th,female,Right-sided Obstructive Lesions
+SRR3945327,-,DUP-th,-,DUP-th,male,Conotruncal Defects
+SRR3953765,-,DUP-th,-,DUP-th,male,Other
+SRR3987264,-,DUP-th,-,DUP-th,male,Conotruncal Defects
+SRR3760937,-,DUP-th,-,-,female,Septal Defects
+SRR3760949,-,DUP-th,-,-,male,Right-sided Obstructive Lesions
+SRR3825112,-,DUP-th,-,-,female,Left-sided Obstructive Lesions
+SRR3928851,-,DUP-th,-,-,female,Conotruncal Defects
+SRR3928856,-,DUP-th,-,-,female,Septal Defects
+SRR3928872,-,DUP-th,-,-,male,Septal Defects
+SRR3931736,-,DUP-th,-,-,male,Conotruncal Defects
+SRR3931880,-,DUP-th,-,-,male,Conotruncal Defects
+SRR3953737,-,DUP-th,-,-,female,Conotruncal Defects
+SRR3953759,-,DUP-th,-,-,female,Left-sided Obstructive Lesions
+SRR3987251,-,DUP-th,-,-,male,Left-sided Obstructive Lesions
+SRR3987259,-,DUP-th,-,-,female,Conotruncal Defects
+SRR3987315,-,DUP-th,-,-,male,Other
+SRR3989856,-,DUP-th,-,-,male,Other
+SRR3989863,-,DUP-th,-,-,male,Right-sided Obstructive Lesions
+SRR3989882,-,DUP-th,-,-,female,Conotruncal Defects
+SRR3989893,-,DUP-th,-,-,male,Other
+SRR3989897,-,DUP-th,-,-,male,Other
+SRR5114927,-,DUP-th,-,-,male,Conotruncal Defects
+SRR5115005,-,DUP-th,-,-,female,Septal Defects
+SRR5115008,-,DUP-th,-,-,female,Left-sided Obstructive Lesions
+SRR5115017,-,DUP-th,-,-,female,Conotruncal Defects
+SRR5115029,-,DUP-th,-,-,male,Left-sided Obstructive Lesions
+SRR3760940,-,-,DEL-ht,DUP-th,female,Septal Defects
+SRR3825108,-,-,DEL-ht,DUP-th,male,Right-sided Obstructive Lesions
+SRR3928831,-,-,DEL-ht,DUP-th,female,Septal Defects
+SRR3928866,-,-,DEL-ht,DUP-th,male,Left-sided Obstructive Lesions
+SRR3931771,-,-,DEL-ht,DUP-th,male,Conotruncal Defects
+SRR3931829,-,-,DEL-ht,DUP-th,female,Septal Defects
+SRR3931846,-,-,DEL-ht,DUP-th,female,Left-sided Obstructive Lesions
+SRR3945343,-,-,DEL-ht,DUP-th,female,Right-sided Obstructive Lesions
+SRR3945488,-,-,DEL-ht,DUP-th,male,Left¨Cright Patterning Defects
+SRR3949322,-,-,DEL-ht,DUP-th,female,Septal Defects
+SRR3953792,-,-,DEL-ht,DUP-th,female,Other
+SRR3987277,-,-,DEL-ht,DUP-th,male,Right-sided Obstructive Lesions
+SRR3987316,-,-,DEL-ht,DUP-th,male,Conotruncal Defects
+SRR3987346,-,-,DEL-ht,DUP-th,female,Septal Defects
+SRR3989830,-,-,DEL-ht,DUP-th,female,Left-sided Obstructive Lesions
+SRR3989840,-,-,DEL-ht,DUP-th,female,Left-sided Obstructive Lesions
+SRR3989845,-,-,DEL-ht,DUP-th,male,Conotruncal Defects
+SRR5114978,-,-,DEL-ht,DUP-th,male,Septal Defects
+SRR3760965,-,-,DEL-ht,-,male,Right-sided Obstructive Lesions
+SRR3760973,-,-,DEL-ht,-,male,Other
+SRR3760995,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3760996,-,-,DEL-ht,-,female,Septal Defects
+SRR3761025,-,-,DEL-ht,-,male,Right-sided Obstructive Lesions
+SRR3825086,-,-,DEL-ht,-,male,Left-sided Obstructive Lesions
+SRR3825125,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3825143,-,-,DEL-ht,-,male,Other
+SRR3825145,-,-,DEL-ht,-,male,Left-sided Obstructive Lesions
+SRR3928807,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3928822,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3928842,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3928859,-,-,DEL-ht,-,male,Septal Defects
+SRR3928891,-,-,DEL-ht,-,male,Right-sided Obstructive Lesions
+SRR3928892,-,-,DEL-ht,-,female,Septal Defects
+SRR3928894,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3931752,-,-,DEL-ht,-,female,Right-sided Obstructive Lesions
+SRR3931775,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3931776,-,-,DEL-ht,-,female,Septal Defects
+SRR3931782,-,-,DEL-ht,-,male,Left-sided Obstructive Lesions
+SRR3931877,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3945280,-,-,DEL-ht,-,male,Septal Defects
+SRR3945282,-,-,DEL-ht,-,female,Left-sided Obstructive Lesions
+SRR3945315,-,-,DEL-ht,-,male,Other
+SRR3945316,-,-,DEL-ht,-,male,Other
+SRR3945352,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3945491,-,-,DEL-ht,-,female,Left-sided Obstructive Lesions
+SRR3949371,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3949401,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3949404,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3949410,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3949422,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3949431,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3953739,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3953785,-,-,DEL-ht,-,female,Other
+SRR3953805,-,-,DEL-ht,-,male,Left-sided Obstructive Lesions
+SRR3953826,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3953840,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3953843,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3953847,-,-,DEL-ht,-,female,Other
+SRR3953849,-,-,DEL-ht,-,male,Other
+SRR3987253,-,-,DEL-ht,-,male,Conotruncal Defects
+SRR3987345,-,-,DEL-ht,-,male,Other
+SRR3989823,-,-,DEL-ht,-,female,Right-sided Obstructive Lesions
+SRR3989831,-,-,DEL-ht,-,female,Septal Defects
+SRR3989866,-,-,DEL-ht,-,female,Right-sided Obstructive Lesions
+SRR3989873,-,-,DEL-ht,-,female,Conotruncal Defects
+SRR3989879,-,-,DEL-ht,-,female,Left-sided Obstructive Lesions
+SRR5115047,-,-,DEL-ht,-,female,Other
+SRR5115050,-,-,DEL-ht,-,male,Right-sided Obstructive Lesions
+SRR3760970,-,-,-,DUP-th,male,Conotruncal Defects
+SRR3761002,-,-,-,DUP-th,male,Right-sided Obstructive Lesions
+SRR3761024,-,-,-,DUP-th,female,Left-sided Obstructive Lesions
+SRR3825048,-,-,-,DUP-th,male,Right-sided Obstructive Lesions
+SRR3825106,-,-,-,DUP-th,female,Septal Defects
+SRR3928803,-,-,-,DUP-th,male,Conotruncal Defects
+SRR3928888,-,-,-,DUP-th,female,Septal Defects
+SRR3931812,-,-,-,DUP-th,female,Septal Defects
+SRR3931856,-,-,-,DUP-th,female,Left-sided Obstructive Lesions
+SRR3945294,-,-,-,DUP-th,male,Conotruncal Defects
+SRR3949329,-,-,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR3949333,-,-,-,DUP-th,female,Right-sided Obstructive Lesions
+SRR3949384,-,-,-,DUP-th,female,Right-sided Obstructive Lesions
+SRR3949391,-,-,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR3949403,-,-,-,DUP-th,female,Conotruncal Defects
+SRR3949414,-,-,-,DUP-th,female,Conotruncal Defects
+SRR3953716,-,-,-,DUP-th,male,Conotruncal Defects
+SRR3953746,-,-,-,DUP-th,female,Other
+SRR3953754,-,-,-,DUP-th,male,Septal Defects
+SRR3953798,-,-,-,DUP-th,male,Conotruncal Defects
+SRR3987242,-,-,-,DUP-th,male,Conotruncal Defects
+SRR3987244,-,-,-,DUP-th,female,Conotruncal Defects
+SRR3987276,-,-,-,DUP-th,male,Conotruncal Defects
+SRR3987324,-,-,-,DUP-th,male,Conotruncal Defects
+SRR3989847,-,-,-,DUP-th,female,Right-sided Obstructive Lesions
+SRR3989850,-,-,-,DUP-th,male,Other
+SRR3989869,-,-,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR3989907,-,-,-,DUP-th,male,Left-sided Obstructive Lesions
+SRR5114912,-,-,-,DUP-th,female,Conotruncal Defects
+SRR5114984,-,-,-,DUP-th,male,Right-sided Obstructive Lesions
+SRR5114987,-,-,-,DUP-th,female,Right-sided Obstructive Lesions
+SRR5115026,-,-,-,DUP-th,female,Septal Defects
+SRR5115035,-,-,-,DUP-th,female,Septal Defects
+SRR3760945,-,-,-,-,female,Left-sided Obstructive Lesions
+SRR3760957,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3760962,-,-,-,-,male,Conotruncal Defects
+SRR3760975,-,-,-,-,female,Septal Defects
+SRR3760978,-,-,-,-,male,Conotruncal Defects
+SRR3760985,-,-,-,-,male,Conotruncal Defects
+SRR3761005,-,-,-,-,male,Conotruncal Defects
+SRR3761013,-,-,-,-,male,Right-sided Obstructive Lesions
+SRR3761020,-,-,-,-,female,Conotruncal Defects
+SRR3761033,-,-,-,-,male,Conotruncal Defects
+SRR3825053,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3825068,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3825076,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3825081,-,-,-,-,female,Left-sided Obstructive Lesions
+SRR3825083,-,-,-,-,male,Conotruncal Defects
+SRR3825088,-,-,-,-,male,Conotruncal Defects
+SRR3825093,-,-,-,-,male,Other
+SRR3825096,-,-,-,-,female,Right-sided Obstructive Lesions
+SRR3825123,-,-,-,-,female,Conotruncal Defects
+SRR3825141,-,-,-,-,male,Other
+SRR3825142,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3825147,-,-,-,-,female,Septal Defects
+SRR3928800,-,-,-,-,male,Conotruncal Defects
+SRR3928810,-,-,-,-,female,Septal Defects
+SRR3928830,-,-,-,-,male,Conotruncal Defects
+SRR3928834,-,-,-,-,female,Left-sided Obstructive Lesions
+SRR3928841,-,-,-,-,male,Conotruncal Defects
+SRR3928863,-,-,-,-,female,Other
+SRR3928871,-,-,-,-,female,Conotruncal Defects
+SRR3928873,-,-,-,-,male,Conotruncal Defects
+SRR3928875,-,-,-,-,female,Septal Defects
+SRR3928889,-,-,-,-,male,Conotruncal Defects
+SRR3931735,-,-,-,-,male,Conotruncal Defects
+SRR3931792,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3931811,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3931827,-,-,-,-,female,Septal Defects
+SRR3931833,-,-,-,-,male,Other
+SRR3931835,-,-,-,-,male,Conotruncal Defects
+SRR3931840,-,-,-,-,male,Conotruncal Defects
+SRR3931851,-,-,-,-,female,Septal Defects
+SRR3931859,-,-,-,-,female,Conotruncal Defects
+SRR3945296,-,-,-,-,female,Septal Defects
+SRR3945301,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3945303,-,-,-,-,male,Conotruncal Defects
+SRR3945309,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3945317,-,-,-,-,female,Conotruncal Defects
+SRR3945319,-,-,-,-,male,Right-sided Obstructive Lesions
+SRR3945326,-,-,-,-,female,Conotruncal Defects
+SRR3945341,-,-,-,-,male,Conotruncal Defects
+SRR3945349,-,-,-,-,male,Conotruncal Defects
+SRR3945469,-,-,-,-,female,Right-sided Obstructive Lesions
+SRR3945476,-,-,-,-,male,Conotruncal Defects
+SRR3945487,-,-,-,-,female,Septal Defects
+SRR3945489,-,-,-,-,female,Conotruncal Defects
+SRR3945494,-,-,-,-,male,Other
+SRR3949332,-,-,-,-,female,Conotruncal Defects
+SRR3949343,-,-,-,-,female,Septal Defects
+SRR3949346,-,-,-,-,male,Septal Defects
+SRR3949347,-,-,-,-,female,Conotruncal Defects
+SRR3949358,-,-,-,-,male,Conotruncal Defects
+SRR3949367,-,-,-,-,female,Septal Defects
+SRR3949377,-,-,-,-,male,Conotruncal Defects
+SRR3949380,-,-,-,-,male,Conotruncal Defects
+SRR3949381,-,-,-,-,male,Right-sided Obstructive Lesions
+SRR3949387,-,-,-,-,male,Septal Defects
+SRR3949394,-,-,-,-,male,Conotruncal Defects
+SRR3949402,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3949424,-,-,-,-,female,Septal Defects
+SRR3953729,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3953748,-,-,-,-,male,Other
+SRR3953751,-,-,-,-,female,Right-sided Obstructive Lesions
+SRR3953761,-,-,-,-,male,Other
+SRR3953783,-,-,-,-,female,Conotruncal Defects
+SRR3953813,-,-,-,-,female,Conotruncal Defects
+SRR3953827,-,-,-,-,female,Conotruncal Defects
+SRR3953829,-,-,-,-,female,Conotruncal Defects
+SRR3953844,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3987226,-,-,-,-,male,Conotruncal Defects
+SRR3987230,-,-,-,-,female,Conotruncal Defects
+SRR3987237,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3987238,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3987270,-,-,-,-,male,Conotruncal Defects
+SRR3987273,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3987341,-,-,-,-,female,Conotruncal Defects
+SRR3987351,-,-,-,-,female,Right-sided Obstructive Lesions
+SRR3987357,-,-,-,-,female,Other
+SRR3987363,-,-,-,-,male,Septal Defects
+SRR3987369,-,-,-,-,male,Other
+SRR3989816,-,-,-,-,female,Other
+SRR3989819,-,-,-,-,male,Other
+SRR3989822,-,-,-,-,female,Other
+SRR3989824,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR3989839,-,-,-,-,male,Conotruncal Defects
+SRR3989860,-,-,-,-,male,Conotruncal Defects
+SRR3989862,-,-,-,-,male,Right-sided Obstructive Lesions
+SRR3989888,-,-,-,-,female,Conotruncal Defects
+SRR3989892,-,-,-,-,male,Other
+SRR3989895,-,-,-,-,male,Right-sided Obstructive Lesions
+SRR3989901,-,-,-,-,female,Left-sided Obstructive Lesions
+SRR5114918,-,-,-,-,male,Conotruncal Defects
+SRR5114921,-,-,-,-,female,Conotruncal Defects
+SRR5114924,-,-,-,-,male,Septal Defects
+SRR5114936,-,-,-,-,male,Right-sided Obstructive Lesions
+SRR5114948,-,-,-,-,male,Conotruncal Defects
+SRR5114954,-,-,-,-,male,Conotruncal Defects
+SRR5114963,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR5114966,-,-,-,-,female,Septal Defects
+SRR5114969,-,-,-,-,male,Septal Defects
+SRR5114975,-,-,-,-,female,Other
+SRR5114981,-,-,-,-,male,Conotruncal Defects
+SRR5114990,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR5114996,-,-,-,-,male,Septal Defects
+SRR5114999,-,-,-,-,male,Left-sided Obstructive Lesions
+SRR5115002,-,-,-,-,male,Conotruncal Defects
+SRR5115011,-,-,-,-,female,Conotruncal Defects
+SRR5115023,-,-,-,-,male,Right-sided Obstructive Lesions
+SRR5115032,-,-,-,-,female,Septal Defects
+SRR5115041,-,-,-,-,female,Septal Defects
+SRR5115053,-,-,-,-,female,Septal Defects
+SRR5115059,-,-,-,-,male,Left-sided Obstructive Lesions
