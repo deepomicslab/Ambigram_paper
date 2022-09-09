@@ -1,3 +1,0 @@
-chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	avg_cn
-chr1	206923995	+	chr1	206924622	+	28
-chr1	207119002	-	chr1	207119851	+	39

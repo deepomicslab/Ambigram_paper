@@ -1,0 +1,6 @@
+chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	avg_cn
+chr12	71208581	+	chr12	71210694	+	24
+chr12	74250797	+	chr12	74254276	+	21
+chr12	80383280	+	chr12	80384190	+	25
+chr12	77990109	-	chr12	77994064	+	21
+chr12	80454441	-	chr12	80461952	+	36

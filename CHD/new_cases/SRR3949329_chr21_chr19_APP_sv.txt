@@ -1,0 +1,6 @@
+chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	avg_cn
+chr19	30410778	+	chr21	27385453	+	21
+chr21	21408859	-	chr21	21409012	+	20
+chr21	26648364	-	chr21	26649407	+	34
+chr21	26001844	-	chr21	26002386	+	62
+chr21	29229504	+	chr21	29229836	+	36
