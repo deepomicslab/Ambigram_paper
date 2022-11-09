@@ -24,4 +24,4 @@ JUNC H:2:+ H:3:+ 60.0 4.0 U B
 JUNC H:3:+ H:4:+ 60.0 4.0 U B
 JUNC H:5:+ H:6:+ 45.0 3.0 U B
 JUNC H:6:+ H:7:+ 60.0 4.0 U B
-PROP	C::chr2:chr6
+PROP	C2:chr2:chr6
