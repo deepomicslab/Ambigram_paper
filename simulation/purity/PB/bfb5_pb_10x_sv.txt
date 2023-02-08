@@ -1,0 +1,5 @@
+chr_3p	bkp_3p	str_3p	chr_5p	bkp_5p	str_5p	depth
+chr6	45653005	-	chr6	45656006	-	2
+chr6	45653002	-	chr6	45655997	+	1
+chr6	45653004	+	chr6	45653004	+	1
+chr6	45654984	+	chr6	45656002	+	1

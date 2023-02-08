@@ -1,0 +1,4 @@
+chr_3p	bkp_3p	str_3p	chr_5p	bkp_5p	str_5p	depth
+chr8	33094001	+	chr8	33094001	+	5
+chr18	45657002	+	chr8	33094002	+	6
+chr18	45656002	-	chr8	33094001	-	24
