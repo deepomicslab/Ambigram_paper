@@ -1,7 +1,5 @@
-/*
-!.gitignore
-!/benchmark/
-!/simulation/
-!/COLO829/
-!/additional/
-!README.md
+/temp/
+/experiement/
+/Bordetella/
+/HGT/
+/T2T/

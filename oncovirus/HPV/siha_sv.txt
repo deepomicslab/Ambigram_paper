@@ -1,0 +1,5 @@
+chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	avg_cn
+chr13	70627032	-	chr13	70627257	+	11
+chr13	71779292	+	chr13	71779292	-	35
+chr13	73513425	+	HPV16REF.1	3133	-	32
+chr13	73214727	-	HPV16REF.1	3384	+	18

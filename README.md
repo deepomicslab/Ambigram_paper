@@ -1,16 +1,16 @@
 ## Introduction
 
-This is a repository for experiments on Onion-BFB. Here, we aim to benchmark the efficacy of Onion-BFB to decipher various BFB events on Illumina pair-end (PE) reads, Oxford Nanopore (ONT) long reads, Pacific Biosciences (PB) long reads, 10x Genomics linked-reads with varying tumor purity and sequencing depth. 
+This is a repository for experiments on Ambigram. Here, we aim to benchmark the efficacy of Ambigram to decipher various BFB events on Illumina pair-end (PE) reads, Oxford Nanopore (ONT) long reads, Pacific Biosciences (PB) long reads, 10x Genomics linked-reads with varying tumor purity and sequencing depth. 
 
 ## Steps of in silico experiments
 
-1. Benchmark based on simulated data: we simulated 4 sets of data to test the efficacy of Onion-BFB to decipher different BFB paths, including fold-back inversions, deletions and translocations. 
-1. Construct a BFB path from a set of test data (sv and seg files) with Onion-BFB.
+1. Benchmark based on simulated data: we simulated 4 sets of data to test the efficacy of Ambigram to decipher different BFB paths, including fold-back inversions, deletions and translocations. 
+1. Construct a BFB path from a set of test data (sv and seg files) with Ambigram.
 1. Generate a BFB fasta file (base sequence) with reference to hg38.fa. 
 1. Simulate sequencing reads on the BFB fasta with different simulators for PE, PB, ONT, and 10x, respectively.
 1. Align the simulated reads with the Homo sapiens (human) genome reference (e.g., hg38.fa).
 1. Extract SV (structural variant) information from the BAM file derived from alignment.
-1. Reconstruct the BFB path with Onion-BFB and new SV information. 
+1. Reconstruct the BFB path with Ambigram and new SV information. 
 
 **Note: there is a .sh file in each directory for the specific experiment. **
 
@@ -23,7 +23,7 @@ This is a repository for experiments on Onion-BFB. Here, we aim to benchmark the
 3. Call SVs from the clipped bam file with some tools, e.g., svaba or sniffles.
 4. Convert the vcf file into a sv file.
 5. Generate a lh file with the sv file and seg file.
-6. Reconstruct the BFB path with Onion-BFB and new SV information. 
+6. Reconstruct the BFB path with Ambigram and new SV information. 
 
 ## Prerequisites
 

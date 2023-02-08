@@ -1,0 +1,5 @@
+chrom_5p	pos_5p	strand_5p	chrom_3p	pos_3p	strand_3p	depth_avg	join_type	gene_5p	gene_3p	clone
+chr11	33335679	+	chr11	33336087	-	25.0	hh	None	None	M3=1,A=2,M9=7,M8=2
+chr11	33363663	+	chr11	33364385	-	23.0	hh	None	None	M8=3,M6=1,M9=6,A=3
+chr11	33980135	+	chr11	33980287	-	50.0	hh	None	None	A=3,M7=1,M8=7,M9=3
+chr11	34299147	+	chr11	34299636	-	48.0	hh	None	None	M8=2,M9=9,M4=1,M5=1,M6=1

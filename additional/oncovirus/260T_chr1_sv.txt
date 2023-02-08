@@ -1,5 +1,0 @@
-chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	avg_cn
-chr1	17842357	+	260T-HBV_C3-RC	810	+	0.62
-260T-HBV_C3-RC	1343	+	260T-HBV_C3-RC	2140	-	1.24
-260T-HBV_C3-RC	1666	-	chr1	17842438	+	0.74
-260T-HBV_C3-RC	2613	-	260T-HBV_C3-RC	1974	+	0.87
