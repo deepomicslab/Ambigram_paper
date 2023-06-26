@@ -20,4 +20,4 @@ JUNC H:3:- H:5:- 35 -1 U B
 JUNC H:2:+ H:5:- 28 -1 U B
 JUNC H:3:- H:6:+ 3 -1 U B
 JUNC H:4:+ H:6:+ 8 -1 U B
-JUNC H:4:+ H:5:- 2 -1 U B
+JUNC H:5:+ H:5:- 2 -1 U B

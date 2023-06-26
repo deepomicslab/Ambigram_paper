@@ -1,5 +1,5 @@
 chrom_5p	bkpos_5p	strand_5p	chrom_3p	bkpos_3p	strand_3p	avg_cn
 chr8	33092000	-	chr8	33092000	+	1
-chr8	33094000	-	chr8	33094000	+	2
+chr8	33095000	+	chr8	33095000	-	2
 chr8	33094000	+	virus	45656000	+	4
 virus	45657000	+	chr8	33094000	+	4
