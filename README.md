@@ -1,4 +1,5 @@
 ## Introduction
+[![DOI](https://zenodo.org/badge/428970777.svg)](https://zenodo.org/badge/latestdoi/428970777)
 
 This is a repository for experiments on Ambigram. Here, we aim to benchmark the efficacy of Ambigram to decipher various BFB events on Illumina pair-end (PE) reads, Oxford Nanopore (ONT) long reads, Pacific Biosciences (PB) long reads, 10x Genomics linked-reads with varying tumor purity and sequencing depth. 
 
