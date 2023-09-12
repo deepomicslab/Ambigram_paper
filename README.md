@@ -1,11 +1,11 @@
 ## Introduction
 [![DOI](https://zenodo.org/badge/428970777.svg)](https://zenodo.org/badge/latestdoi/428970777)
 
-This is a repository for experiments on Ambigram. Here, we aim to benchmark the efficacy of Ambigram to decipher various BFB events on Illumina pair-end (PE) reads, Oxford Nanopore (ONT) long reads, Pacific Biosciences (PB) long reads, 10x Genomics linked-reads with varying tumor purity and sequencing depth. 
+This is a repository for experiments on the Nature Communication paper [Deciphering complex breakage-fusion-bridge genome rearrangements with Ambigram](https://doi.org/10.1038/s41467-023-41259-w). Here, we aim to benchmark the efficacy of Ambigram to decipher various BFB events on Illumina pair-end (PE) reads, Oxford Nanopore (ONT) long reads, Pacific Biosciences (PB) long reads, 10x Genomics linked reads with varying tumor purity and sequencing depth. 
 
 ## Steps of in silico experiments
 
-1. Benchmark based on simulated data: we simulated 4 sets of data to test the efficacy of Ambigram to decipher different BFB paths, including fold-back inversions, deletions and translocations. 
+1. Benchmark based on simulated data: We simulated 4 sets of data to test the efficacy of Ambigram in deciphering different BFB paths, including fold-back inversions, deletions, and translocations. 
 1. Construct a BFB path from a set of test data (sv and seg files) with Ambigram.
 1. Generate a BFB fasta file (base sequence) with reference to hg38.fa. 
 1. Simulate sequencing reads on the BFB fasta with different simulators for PE, PB, ONT, and 10x, respectively.
@@ -13,7 +13,7 @@ This is a repository for experiments on Ambigram. Here, we aim to benchmark the 
 1. Extract SV (structural variant) information from the BAM file derived from alignment.
 1. Reconstruct the BFB path with Ambigram and new SV information. 
 
-**Note: there is a .sh file in each directory for the specific experiment. **
+**Note: There is a .sh file in each directory for the specific experiment. **
 
 ## Steps of reconstructing BFB path using curated SV
 
@@ -38,3 +38,17 @@ This is a repository for experiments on Ambigram. Here, we aim to benchmark the 
 - ngmlr ([https://github.com/philres/ngmlr](https://github.com/philres/ngmlr))
 - sniffles ([https://github.com/fritzsedlazeck/Sniffles](https://github.com/fritzsedlazeck/Sniffles))
 - LRSIM ([https://github.com/aquaskyline/LRSIM](https://github.com/aquaskyline/LRSIM))
+
+## Citation
+```
+@article{li2023deciphering,
+  title={Deciphering complex breakage-fusion-bridge genome rearrangements with Ambigram},
+  author={Li, Chaohui and Chen, Lingxi and Pan, Guangze and Zhang, Wenqian and Li, Shuai Cheng},
+  journal={Nature Communications},
+  volume={14},
+  number={1},
+  pages={5528},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+```
